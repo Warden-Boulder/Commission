@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="navigation.js"></script>
+</head>
+<body>
+  <header>
+  <h1 class="underline">Add Ons</h1>
+  <strong><p>Outpost Map: <select onchange="Nav()" id="select">
+    <option value="null">---Select---</option>
+      <optgroup label="Outpost Grounds">
+        <option value="about">About Me</option>
+      <option value="about">About Me</option>
+      <option value="contact">Contact Me</option>
+      <option value="status">Status Board</option>
+      <option value="testimonials">Testimonials</option>
+      <option value="index">The Nexus</option>
+      <option value="tos">TOS</option>
+      </optgroup>
+    <optgroup label="Boards">
+      <option value="sanctum">Sanctum Registry Board</option>
+      <option value="forge">Forge Order Board</option>
+    </optgroup>
+    </select>
+    </p></strong><br><br>
+  </header></optgroup>
+    </select>
+    </p></strong><br><br>
+  </header>
+
+    <details>
+      <summary><span class="bounty underline"><strong>Inkweaver Sanctum Add-Ons</strong></span></summary>
+        <ul class="hime">
+          <li class="underline">Extra Revisions:</li>
+            <ul>
+              <li class="bronze">Bronze Scroll:<br>
+                $1/Revision</li><br>
+              <li class="silver">Silver Tome:<br>
+                $2/Revision</li><br>
+              <li class="gold">Golden Codex:<br>
+                $3/Revision</li><br>
+            </ul>
+          <li class="underline">Extra Pages: </li>
+            <ul>
+              <li class="bronze">Bronze Scroll:<br>
+                $4/Page</li><br>
+              <li class="silver">Silver Tome:<br>
+                $6/Page</li><br>
+              <li class="gold">Golden Codex:<br>
+                $8/Page</li><br>
+              <li class="platinum">Platinum Grimoire:<br>
+                $10/Page</li><br>
+            </ul>
+          <li class="underline">Rush Delivery: </li>
+            <ul>
+              <li class="fast"><strong>Writ of the Courts:</strong><br>
+               Packages: Bronze Scroll and Up<br>
+               Time Frame: 1-2 Days Faster<br>
+                Surcharge: +10% Fee (Min. $2)</li><br>
+              <li class="expedited"><strong>Writ of Royalty:</strong><br>
+              Packages: Silver Tome and Up<br>
+              Time Frame: 2-3 Days Faster<br>
+              Surcharge: +20% Fee (Min. $5)</li><br>
+              <li class="priority"><strong>Writ of the Ascended:</strong><br>
+              Packages: Golden Codex and Up<br>
+              Time Frame: 3-4 Days Faster<br>
+              Surcharge: +40% Fee</li><br>
+              <li class="urgent"><strong>Writ of the Pantheon:</strong><br>
+              Packages: Pending Approval<br>
+              Time Frame: Delivered ASAP<br>
+              Surcharge: +50% Fee</li><br>
+            </ul>
+          <li class="underline">Additional Work In Progress Updates:</li>
+            <ul>
+              <li class="bronze">Bronze Scroll:<br>
+              $3/Update<br>
+              Includes: Up to 2 work in progress updates</li><br>
+              <li class="silver">Silver Tome:<br>
+              $5/Update<br>
+              Includes: Up to 2 work in progress updates</li><br>
+              <li class="gold">Golden Codex:<br>
+              $7/Update<br>
+              Includes: Up to 1 work in progress updates</li><br>
+            </ul>
+          <li class="underline">Additional Formattings: </li>
+            <ul>
+              <li class="silver">Silver Tome:<br> $5/Request</li><br>
+              <li class="gold">Golden Codex:<br> $10/Request</li><br>
+              <li class="platinum">Platinum Grimoire:<br> $20/Request</li><br>
+            </ul>
+          <li>Priority Support (Golden Codex Only): 
+          <ul>
+              <li class="gold">Golden Codex - $10</li><br>
+            </ul>
+          </li>
+          <li>Post Delivery Support (Platinum Grimoire Only):
+          <ul>
+              <li class="platinum">Minor Adjustments (Up to 1 week after delivery):<br> $10</li><br>
+              <li class="platinum">Extended Support (Up to 1 month after delivery):<br> $20</li><br>
+            </ul>
+          </li>
+        </ul>
+      </details>
+    
+    <details>
+      <summary><span class="bounty underline"><strong>Codewright Forge Add-Ons</strong></span></summary>
+        <ul class="hime">
+          <li>Extra Pages:
+            <ul>
+              <li class="starter">Starter Forge:<br> $6/Page</li><br>
+              <li class="basic">Apprentice Forge:<br> $8/Page</li><br>
+              <li class="standard">Standard Forge: <br>$10/Page</li><br>
+              <li class="legendary">Masterwork Forge: <br> $15/Page</li><br>
+            </ul>
+          </li>
+          <li>Extra Revisions:
+            <ul>
+              <li class="starter">Starter Forge:<br> $2/Revision</li><br>
+              <li class="basic">Apprentice Forge:<br>  $3/Revision</li><br>
+              <li class="standard">Standard Forge:<br> $4/Revision</li><br>
+            </ul>
+          </li>
+          <li>Rush Delivery:
+            <ul>
+              <li class="fast"><strong>Quicksilver Injector</strong><br>
+                Forge: Starter and Up<br>
+                Time Frame: 4-5 days sooner<br>
+                Surcharge: +40%</li><br>
+              <li class="expedited"><strong>Lava Injector</strong><br>
+               Forge: Apprentice and Up<br>
+                Time Frame: 3-4 days sooner<br>
+                Surcharge: +30%</li><br>
+              <li class="priority"><strong>Phoenix Fire Injector:</strong><br>
+                Forge: Standard and Up<br>
+                Time Frame: 4-5 days sooner<br>
+                Surcharge: +40%</li><br>
+              <li class="urgent"><strong>Chrono Injector:</strong><br> 
+              Forge: Pending Approval<br>
+              Time Frame: Up to 6 days sooner or Forged ASAP<br>
+              Surcharge: +50%</li>
+            </ul>
+          </li>
+        </ul>
+      </details>
+<footer>
+<a href="https://linktr.ee/no13boulder"><em>Linktree</em></a><br>
+  </footer>
+</body>
+</html>
