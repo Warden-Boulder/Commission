@@ -1,0 +1,295 @@
+.basic {
+  color: #00FF00;
+}
+body {
+  background-color:  #4B5B6E;
+  font-size: 16px;
+  font-style: italic;
+  margin: 50px;
+  height: 100%;
+  width: 100%;
+}
+.bounty {
+  color: #ffffff;
+}
+.bronze {
+  color: #cd7f32 !important;
+}
+.cancellations {
+  color: #e0115f;
+}
+.coding {
+  background-color: #0f52ba;
+  border: 2px solid black;
+  border-radius: 30%;
+  color: #D3D3D3;
+  display: inline-block;
+  font-family: pacifico;
+  font-weight: bold;
+  margin: 1px;
+  padding: 5px;
+}
+.container {
+  display: grid;
+  margin: 1px;
+  padding: 5px;
+}
+.content{
+  color: #e4f5f9;
+}
+.darkMode {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+}
+div {
+  color: #D3D3D3;
+  font-family: pacifico;
+}
+.epic {
+  color: #ffb5e8;
+  font-style: italic;
+}
+.expedited{
+  color: #FFE600;
+}
+.fast{
+  color: limegreen;
+}
+
+footer {
+  border-top: 1px solid white;
+  font-style: italic;
+  margin-top: 25px;
+  text-align: center;
+}
+.french {
+  background-color: #7851A9;
+  border: 2px solid black;
+  border-radius: 30%;
+  color: #D3D3D3;
+  display: inline-block;
+  font-family: pacifico;
+  margin: 1px;
+  padding: 5px;
+}
+.general {
+  color: #0a0a0a;
+}
+.gold {
+  color: #ffd700 !important;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+
+.grid-header {
+  border-bottom: 2px solid #D3D3D3;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+
+.grid-header:not(.bronze):not(.silver):not(.gold):not(.platinum) {
+  color: #D3D3D3;
+}
+
+.grid1 {
+  text-align: center;
+  color: #D3D3D3;
+}
+
+.grid2 {
+  color: #D3D3D3;
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+}
+
+.grid-cell {
+  padding: 10px;
+  text-align: center;
+}
+header {
+  text-align: center;
+  text-decoration: underline;
+  text-weight: bold;
+}
+h1 {
+  color: #D3D3D3;
+  fontfamily: pacifico;
+  text-align: center;
+}
+header.starter h1,
+header.basic h1,
+header.standard h1,
+header.legendary h1,
+header.epic h1 {
+  color: inherit;
+}
+header p {
+  text-font: 5px;
+  text-align: center;
+  width: 100%;
+}
+header select {
+  text-align: center;
+}
+.hime {
+  color: #8267be;
+}
+h2, h3, h4 {
+  justify-content: left;
+  color: #D3D3D3;
+  display: inline-block;
+  margin: 0;
+  font-family: pacifico;
+  text-align: center;
+}
+h2 {
+  font-weight: bold;
+}
+img {
+  height: auto;
+  width: 300px;
+  max-width: 100%;
+}
+img.icon {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  vertical-align: middle;
+}
+img.icon[alt="X Icon"] {
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  border-radius: 4px;
+  padding: 2px;
+}
+.legendary {
+  color: orange;
+}
+nav {
+  border: 2px solid black;
+  display: block;
+  margin: auto;
+  padding: 20px;
+  position: sticky;
+  text-align: center;
+  width: fit-content;
+}
+
+nav::before {
+  background: #4B5B6E;
+  color: #D3D3D3;
+  content: "Navigation";
+  left: 50%;
+  padding: 0 10px;
+  position: absolute;
+  top: -12px;
+  transform: translateX(-50%);
+}
+.note {
+  color: crimson;
+  font-weight: bold;
+}
+p {
+  align-content: left;
+  color: #D3D3D3;
+  display: inline-block;
+  font-family: pacifico;
+  text-align: center;
+  margin: 0;
+}
+
+ul, ol {
+  color: inherit;
+  font-family: pacifico;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.payments {
+  color: #50c878;
+}
+.platinum {
+  color: #d8f3ff !important;
+}
+.priority{
+  color: darkorange;
+}
+.proccess{
+  color: lightblue;
+}
+.silver{
+  color: #c0c0c0 !important;
+}
+.spanish {
+  background-color: red;
+  border-radius: 30%;
+  color: #D3D3D3;
+  display: inline-block;
+  font-family: pacifico;
+  margin: 1px;
+  padding: 5px;
+}
+.standard {
+  color: darkblue;
+}
+.starter {
+  color: #ffffff;
+}
+
+#select {
+  border-radius: 15px;
+}
+summary:has(.bounty) {
+  color: silver;
+}
+
+summary {
+  margin-bottom: 25px;
+}
+.toggles::before {
+  background: #4B5B6E;
+  color: #D3D3D3;
+  content: "Navigation";
+  left: 50%;
+  padding: 0 10px;
+  position: absolute;
+  top: -12px;
+  transform: translateX(-50%);
+}
+.translation {
+  background-color: #7851A9;
+  border: 2px solid black;
+  border-radius: 30%;
+  color: #D3D3D3;
+  display: inline-block;
+  font-family: pacifico;
+  font-weight: bold;
+  margin: 1px;
+  padding: 5px;
+}
+ul, ol {
+  color: inherit;
+  font-family: pacifico;
+  font-style: italic;
+}
+.underline {
+  text-decoration: underline;
+}
+.urgent{
+  color: darkred;
+}
+.welcome {
+  color: #D3D3D3;
+  display: inline-block;
+  font-family: pacifico;
+  size: 16px;
+}
