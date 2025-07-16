@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="navigation.js"></script>
+</head>
+<body>
+  <header><h1 class="underline">Inkweaver Bindings</h1>
+    <strong><p>Outpost Map: <select onchange="Nav()" id="select">
+    <option value="null">---Select---</option>
+      <optgroup label="Outpost Grounds">
+        <option value="about">About Me</option>
+      <option value="add">Add-Ons</option>
+      <option value="contact">Contact Me</option>
+      <option value="status">Status Board</option>
+      <option value="testimonials">Testimonials</option>
+      <option value="index">The Nexus</option>
+      <option value="tos">TOS</option>
+      </optgroup>
+    <optgroup label="Inkweaver Sanctum">
+      <option value="sanctum">Sanctum Registry Board</option>
+    </optgroup>
+    </select>
+    </p></strong><br><br>
+  </header>
+  
+  <details>
+    <summary class="underline">Language Pairs</summary>
+  <div class="grid-container">
+    <div class="grid-header grid1">Language Pair</div>
+    <div class="grid-header grid1 bronze">Bronze Scroll</div>
+    <div class="grid-header grid1 silver">Silver Tome</div>
+    <div class="grid-header grid1 gold">Golden Codex</div>
+    <div class="grid-header grid1 platinum">Platinum Grimoire</div>
+
+    <div class="grid2">English & French</div>
+    <div class="grid-cell bronze">$5</div>
+    <div class="grid-cell silver">$12</div>
+    <div class="grid-cell gold">$25</div>
+    <div class="grid-cell platinum">$50</div>
+
+    <div class="grid2">English & Spanish</div>
+    <div class="grid-cell bronze">$5</div>
+    <div class="grid-cell silver">$10</div>
+    <div class="grid-cell gold">$20</div>
+    <div class="grid-cell platinum">$35</div>
+
+    <div class="grid2">French & Spanish</div>
+    <div class="grid-cell bronze">$5</div>
+    <div class="grid-cell silver">$15</div>
+    <div class="grid-cell gold">$25</div>
+    <div class="grid-cell platinum">$40</div>
+  </div>
+  </details>
+  <details>
+    <summary class="bronze underline">Bronze Scroll</summary>
+    <ul class="bronze">
+    <li>Price: $5 (all language pairs)</li>
+    <li>Number of pages: 3 pages</li>
+    <li>Number of revisions: 3 revisions</li>
+    <li>Delivery Time: 3 days</li>
+    <li>Add Ons Available:
+      <ul>
+        <li>Extra Pages</li>
+        <li>Extra Revisions</li>
+        <li>Fast or Urgent Delivery</li>
+        <li>Check Ins</li>
+      </ul>
+    </li>
+    <li>Services:
+      <ol class="bronze">
+        <li>Basic Proofreading (spelling, grammar, and punctuation check)</li>
+        <li>Simple Formatting (basic text layout, font consistency, paragraph structure)</li>
+        <li>10-minute Consultation (optional, for quick questions or clarifications)</li>
+      </ol>
+    </li>
+  </ul>
+  </details>
+  <details>
+    <summary class="silver underline">Silver Tome</summary>
+    <ul class="silver">
+      <li>Price: $10-$15</li>
+      <li>Number of pages: 5 pages</li>
+      <li>Number of revisions: 5 revisions</li>
+      <li>Delivery Time: 5 days</li>
+      <li>Add Ons Available:
+      <ul>
+        <li>Extra Pages</li>
+        <li>Extra Revisions</li>
+        <li>Fast, Expedited, or Priority Delivery </li>
+        <li>Check Ins</li>
+        <li>Additional Standard Formatting (consistent font usage, simple tables, minor layout adjustments)</li>
+      </ul>
+    </li>
+      <li>Services:
+        <ol class="silver">
+          <li>Standard Proofreading & Formatting (grammar, readability, and structure improvement)</li>
+          <li>Glossary Creation (for key terms to maintain consistency in translation)</li>
+          <li>15-minute Consultation (optional, for terminology discussion or clarification)</li>
+          <li>1 check-in (at 25% completion, optional)</li>
+        </ol>
+      </li>
+    </ul>
+  </details>
+  <details>
+    <summary class="gold underline">Golden Codex </summary>
+   <ul class="gold">
+      <li>Price: $20-$25</li>
+      <li>Number of pages: 10 pages</li>
+      <li>Number of revisions: 10 revisions</li>
+      <li>Delivery Time: 7 days</li>
+      <li>Add Ons Available:
+      <ul>
+        <li>Extra Pages</li>
+        <li>Extra Revisions</li>
+        <li>Fast, Expedited, or Priority Delivery </li>
+        <li>Check Ins</li>
+        <li>Additional Advanced Formatting (complex tables, structured documents, professional layout adjustments)</li>
+        <li>Priority Support</li>
+      </ul>
+    </li>
+      <li>Services:
+        <ol class="gold">
+          <li>Advanced Proofreading & Formatting (enhanced readability, structure, and tone adaptation for target audience)</li>
+          <li>Terminology Management (detailed glossary + maintaining consistency across technical/legal terms)</li>
+          <li>30-minute Consultation (optional, for translation style, terminology, or formatting needs)</li>
+          <li>2 check-ins (at 25% and 50% completion, optional)</li>
+        </ol>
+      </li>
+    </ul>
+  </details>
+  <details>
+    <summary class="platinum underline">Platinum Grimoire </summary>
+    <ul class="platinum">
+      <li>Price: $35-$50</li>
+      <li>Number of pages: 40 pages</li>
+      <li>Number of revisions: Unlimited revisions (within reason)</li>
+      <li>Delivery Time: 14 days</li>
+      <li>Add Ons Available:
+      <ul>
+        <li>Extra Pages</li>
+        <li>Extra Revisions</li>
+        <li>Fast, Expedited, or Priority Delivery </li>
+        <li>Check Ins</li>
+        <li>Additional Premium Formatting (Full document restructuring, complex graphics, specialized layouts)</li>
+        <li>Post Delivery Support (minor edits or clarifications after completion)</li>
+      </ul>
+    </li>
+      <li>Services:
+        <ol class="platinum">
+          <li>Premium Proofreading & Formatting (highest quality review, localization for the target audience, and perfecting tone/style for industry needs)</li>
+          <li>Terminology Management (comprehensive glossary plus deep, consistent, check across the document)</li>
+          <li>60-minute Consultation (optional, for in-depth discussion about document requirements, target audience, and industry specific nuances)</li>
+          <li>3 check-ins (at 25%, 50%, and 75% completion, optional)</li>
+          <li>Priority Support (faster responses, priority for urgent requests, and flexible adjustments based on feedback)</li>
+        </ol>
+      </li>
+    </ul>
+  </details><br>
+<footer>
+<a href="https://linktr.ee/no13boulder"><em>Linktree</em></a><br>
+  </footer>
+</body>
+</html>
