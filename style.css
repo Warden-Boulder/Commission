@@ -15,9 +15,6 @@ body {
 .bronze {
   color: #cd7f32 !important;
 }
-.cancellations {
-  color: #e0115f;
-}
 .coding {
   background-color: #0f52ba;
   border: 2px solid black;
@@ -34,9 +31,7 @@ body {
   margin: 1px;
   padding: 5px;
 }
-.content{
-  color: #e4f5f9;
-}
+
 .darkMode {
   background-color: #1a1a1a !important;
   color: #ffffff !important;
@@ -72,7 +67,7 @@ footer {
   margin: 1px;
   padding: 5px;
 }
-.general {
+.general, .cancellations, .ownership, .payments, .process, .content {
   color: #0a0a0a;
 }
 .gold {
@@ -214,17 +209,11 @@ ul, ol {
   margin-top: 0;
   margin-bottom: 0;
 }
-.payments {
-  color: #50c878;
-}
 .platinum {
   color: #d8f3ff !important;
 }
 .priority{
   color: darkorange;
-}
-.proccess{
-  color: lightblue;
 }
 .silver{
   color: #c0c0c0 !important;
@@ -292,4 +281,7 @@ ul, ol {
   display: inline-block;
   font-family: pacifico;
   size: 16px;
+}
+.section-body {
+  margin-top: -20px;
 }
