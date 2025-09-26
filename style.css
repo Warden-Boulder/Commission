@@ -31,7 +31,9 @@ body {
   margin: 1px;
   padding: 5px;
 }
-
+.contact {
+  margin-bottom: 10px;
+}
 .darkMode {
   background-color: #1a1a1a !important;
   color: #ffffff !important;
@@ -201,14 +203,6 @@ p {
   text-align: center;
   margin: 0;
 }
-
-ul, ol {
-  color: inherit;
-  font-family: pacifico;
-  font-style: italic;
-  margin-top: 0;
-  margin-bottom: 0;
-}
 .platinum {
   color: #d8f3ff !important;
 }
@@ -265,7 +259,7 @@ summary {
   margin: 1px;
   padding: 5px;
 }
-ul, ol {
+ul, ol, li {
   color: inherit;
   font-family: pacifico;
   font-style: italic;
