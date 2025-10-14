@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width">
   <link href="style.css" rel="stylesheet" type="text/css">
   <script src="navigation.js"></script>
+  <script src="toggles.js"></script>
 </head>
 <body>
   <header>
@@ -23,7 +24,14 @@
       <option value="sanctum">Sanctum Registry Board</option>
       <option value="forge">Forge Order Board</option>
     </optgroup>
-    </select>
+    </select><br>
+      Toggles: <select name="toggle" id="toggles" onchange="toggleMode()">
+    <option value="null">---Select---</option>
+    <optgroup label="mode">Modes</optgroup>
+    <option value="dark">Dark Mode</option>
+    <option value="light">Light Mode</option>
+    <option value="norm">Normal Mode</option>
+  </select>
     </p></strong><br><br>
   </header>
   
