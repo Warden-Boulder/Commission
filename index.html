@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link href="style.css" rel="stylesheet" type="text/css">
-  <script src="navigation.js"></script>
+  <script src="navigation.js"> </script>
+  <script src="toggles.js"> </script>
   <title>The Nexus</title>
 </head>
 <body>
@@ -20,15 +21,22 @@
       <option value="status">Status Board</option>
       <option value="testimonials">Testimonials</option>
       <option value="tos">TOS</option>
-    </select>
+    </select><br>
+      Toggles: <select name="toggle" id="toggles" onchange="toggleMode()">
+    <option value="null">---Select---</option>
+    <optgroup label="mode">Modes</optgroup>
+    <option value="dark">Dark Mode</option>
+    <option value="light">Light Mode</option>
+    <option value="norm">Normal Mode</option>
+  </select>
     </p></strong><br>
   </header><br><br>
   <p class="translation">Inkweaver's Sanctum</p>
   <ul>
     <li><a href="sanctum-board.html">Sanctum Registry Board</a></li>
     <li><a href="inkweaver.html">Inkweaver Bindings</a></li>
-    <li>Dreamweaver Weavings</li>
-    <li>Lorekeeper Bindings</li>
+    <li><a href="dream.html">Dream Weavings</a></li>
+    <li><a href="lore.html">Lorekeeper Bindings</a></li>
   </ul><br>
   <p class="coding">Codewright's Forge</p>
   <ul>
