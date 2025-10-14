@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width">
   <link href="style.css" rel="stylesheet" type="text/css">
   <script src="navigation.js"></script>
+  <script src="toggles.js"></script>
 </head>
 <body>
   <header><h1 class="underline">Inkweaver Bindings</h1>
@@ -22,7 +23,14 @@
     <optgroup label="Inkweaver Sanctum">
       <option value="sanctum">Sanctum Registry Board</option>
     </optgroup>
-    </select>
+    </select><br>
+      Toggles: <select name="toggle" id="toggles" onchange="toggleMode()">
+    <option value="null">---Select---</option>
+    <optgroup label="mode">Modes</optgroup>
+    <option value="dark">Dark Mode</option>
+    <option value="light">Light Mode</option>
+    <option value="norm">Normal Mode</option>
+  </select>
     </p></strong><br><br>
   </header>
   
@@ -57,6 +65,7 @@
   <details>
     <summary class="bronze underline">Bronze Scroll</summary>
     <ul class="bronze">
+    <li>Number of language pairs: 1 pair</li>
     <li>Price: $5 (all language pairs)</li>
     <li>Number of pages: 3 pages</li>
     <li>Number of revisions: 3 revisions</li>
@@ -81,6 +90,7 @@
   <details>
     <summary class="silver underline">Silver Tome</summary>
     <ul class="silver">
+      <li>Number of language pairs: 1 pair</li>
       <li>Price: $10-$15</li>
       <li>Number of pages: 5 pages</li>
       <li>Number of revisions: 5 revisions</li>
@@ -107,6 +117,7 @@
   <details>
     <summary class="gold underline">Golden Codex </summary>
    <ul class="gold">
+      <li>Number of language pairs: 1 pair</li>
       <li>Price: $20-$25</li>
       <li>Number of pages: 10 pages</li>
       <li>Number of revisions: 10 revisions</li>
@@ -134,7 +145,9 @@
   <details>
     <summary class="platinum underline">Platinum Grimoire </summary>
     <ul class="platinum">
-      <li>Price: $35-$50</li>
+      <li>Number of language pairs: 2 pairs</li>
+      <li>Single Language Pair Price: $35-$50</li>
+      <li>Dual Language Pair Price: $70-$100</li>
       <li>Number of pages: 40 pages</li>
       <li>Number of revisions: Unlimited revisions (within reason)</li>
       <li>Delivery Time: 14 days</li>
