@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width">
   <link href="style.css" rel="stylesheet" type="text/css">
   <script src="navigation.js"></script>
+  <script src="toggles.js"></script>
 </head>
 <body>
   <header class= "basic underline"><h1>Apprentice Forge</h1>
@@ -26,8 +27,15 @@
       <option value="masterwork">Masterwork Forge</option>
       <option value="creation">Forge Of Creation</option>
     </optgroup>
+  </select><br>
+      Toggles: <select name="toggle" id="toggles" onchange="toggleMode()">
+    <option value="null">---Select---</option>
+    <optgroup label="mode">Modes</optgroup>
+    <option value="dark">Dark Mode</option>
+    <option value="light">Light Mode</option>
+    <option value="norm">Normal Mode</option>
   </select>
-  </nav><br><br>
+  </p></strong><br><br>
   </header><br>
   <ol class= "basic">
     <li>Price: $75-$100</li>
