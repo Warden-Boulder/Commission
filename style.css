@@ -281,7 +281,7 @@ p {
   color: #ffffff;
 }
 
-#select {
+#select, #toggles {
   border-radius: 15px;
 }
 summary:has(.bounty) {
