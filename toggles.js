@@ -1,6 +1,5 @@
 function toggleMode() {
   const togglesSelect = document.getElementById("toggles");
-  if (!togglesSelect) return;
   
   const selectedValue = togglesSelect.value;
   const el = document.querySelector("body");
