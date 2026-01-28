@@ -6,7 +6,7 @@ A site designed to showcase available commissions
 
 ## ✈️ Overview
 
-This site serves as a hub vor viewing my commissions
+This site serves as a hub for viewing my commissions
 It provides details about my commissions, a way to contact me for custom commissions, and various other pages. 
 
 ---
