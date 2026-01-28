@@ -25,4 +25,3 @@ It provides details about my commissions, a way to contact me for custom commiss
 ## 🚀 Demo / Live Site
 
 - Live Site: https://warden-boulder.github.io/Commission/index.html
-- Screenshot(s)
