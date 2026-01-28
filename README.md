@@ -1,35 +1,28 @@
 # Warden's Outpost
 
-A site designed to showcase available commissions
+A site designed to showcase available commissiona
 
 ---
 
 ## ✈️ Overview
 
-Briefly explain:
-- What problem this project solves
-- Who it’s intended for
-- Why you built it
-
-Example:
-This project is a collection of aviation maintenance reference tools designed to provide quick calculations and guidance for technicians.
+This site serves as a hub vor viewing my commissions
+It provides details about my commissions, a way to contact me for custom commissions, and various other pages. 
 
 ---
 
 ## 🧰 Features
 
-- Feature or tool #1
-- Feature or tool #2
-- Feature or tool #3
-- Mobile-friendly / responsive design
-- No dependencies / lightweight
+- Welcoming landing page
+- Navigation menu with key sections
+- Interactive dropdown toggles
+- Sections for avilable commissions
+- Social Linka Intergation
+- Fantasy themed deaign
 
 ---
 
 ## 🚀 Demo / Live Site
 
-- Live Site: https://yourusername.github.io/project-name/
-- Screenshots (optional)
-
-```text
-(Add screenshots or GIFs here if you want)
+- Live Site: https://warden-boulder.github.io/Commission/index.html
+- Screenshot(s)
