@@ -1,6 +1,6 @@
 # Warden's Outpost
 
-A site designed to showcase available commissiona
+A site designed to showcase available commissions
 
 ---
 
