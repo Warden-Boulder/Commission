@@ -1,5 +1,25 @@
+a:hover {
+  color: red;
+}
+ol a {
+  color: #D3D3D3;
+  text-decoration: none;
+}
+footer a {
+  color: #D3D3D3;
+  text-decoration: none;
+}
 .basic {
   color: #00FF00;
+}
+#snow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  pointer-eventd: none;
+  z-index: 1;
 }
 
 body, .normMode {
@@ -23,6 +43,7 @@ body, .normMode {
   background-color: #0f52ba;
   border: 2px solid black;
   border-radius: 30%;
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.3);
   color: #D3D3D3;
   display: inline-block;
   font-family: pacifico;
@@ -90,46 +111,10 @@ footer {
   color: #ffd700 !important;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 10px;
-  width: 100%;
-  margin: 20px 0;
-  border-collapse: collapse;
-}
-
-.grid-header {
-  border-bottom: 2px solid #D3D3D3;
-  font-weight: bold;
-  padding: 10px;
-  text-align: center;
-}
-
-.grid-header:not(.bronze):not(.silver):not(.gold):not(.platinum) {
-  color: #D3D3D3;
-}
-
-.grid1 {
-  text-align: center;
-  color: #D3D3D3;
-}
-
-.grid2 {
-  color: #D3D3D3;
-  font-weight: bold;
-  padding: 10px;
-  text-align: left;
-}
-
-.grid-cell {
-  padding: 10px;
-  text-align: center;
-}
-
 header {
+  border-bottom: solid #D3D3D3 3px;
+  margin: 25px;
   text-align: center;
-  text-decoration: underline;
   text-weight: bold;
 }
 
@@ -307,6 +292,7 @@ summary {
   background-color: #7851A9;
   border: 2px solid black;
   border-radius: 30%;
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.3);
   color: #D3D3D3;
   display: inline-block;
   font-family: pacifico;
